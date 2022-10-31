@@ -17,3 +17,11 @@
 - [Módulo 5 - Começando no Framework Angular]()
 - [Módulo 6 - Dominando Algoritmos Intermediários com Desafios de Código Javascript]()
 - [Módulo 7 - Princípios Cloud Computer com AWS]()
+
+<br>
+
+## Visualize os projetos como Página Web 👀
+
+- Módulo 2 - Páginas Web com HTML e CSS
+  - [Desafio 01 - Crie uma página web utilizando as tags aprendidas](https://lucasnsf.github.io/bootcamp-ntt-data/modulo_2/desafio-01.html)
+  - [Desafio 02 - Criando seu primeiro site completo com HTML](https://lucasnsf.github.io/bootcamp-ntt-data/modulo_2/desafio-02/desafio-02.html)
