@@ -38,6 +38,14 @@
   - [Tag Td e Th](#tag-td-e-th)
   - [Tag TBody, THead e TFoot](#tag-tbody-thead-e-tfoot)
 - [Desafio de Projeto 02 - Criando seu Primeiro Site Completo com HTML](./desafio-02/desafio-02.html)
+- [Fundamentos do CSS](#fundamentos-do-css)
+  - [Seletor de Tags](#seletor-de-tags)
+  - [Propriedades de Dimensionamento e Espaçamento](#propriedades-de-dimensionamento-e-espaçamento)
+- [Estilizações Básicas com CSS](#estilização-básica-com-css)
+  - [Imagens](#imagens)
+  - [Fundo dos Elementos](#fundo-dos-elementos)
+  - [Bordas](#bordas)
+  - [Fontes](#fontes)
 
 <br>
 
@@ -560,3 +568,137 @@ Essas tags carregam peso semântico, dividindo a tabela em cabeçalho, corpo e r
 **Dica:** Para mesclar linhas ou colunas de uma tabela utilize os atributos `rowspan` e `colspan`.
 
 <br>
+
+## Fundamentos do CSS
+
+O CSS (_Cascading Style Sheets_) é um mecanismo para adicionar estilos a um documento HTML.
+
+<br>
+
+### **Seletor de Tags**
+
+Definem em quais elementos vamos aplicar o CSS. Existem diferentes tipos de seleções:
+
+1. Seletor de Tag/Tipo
+2. Seletor de ID
+3. Seletor de Classes
+4. Seletor Universal
+5. Seletor de Atributo
+
+```css
+/* Seletor de Tag/Tipo */
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Seletor de ID */
+#meuID {
+  background-color: red;
+}
+
+/* Seletor de Classes */
+.minhaClasse {
+  margin: 0 auto;
+  padding: 2em 0.5em;
+  text-align: center;
+}
+
+/* Seletor Universal */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Seletor de Atributo */
+[nome_do_atributo="valor_atributo"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+```
+
+<br>
+
+### **Propriedades de Dimensionamento e Espaçamento**
+
+1. Largura e altura (_width_ e _height_): é possível definir largura e altura de elementos no CSS, aceitam diversas unidades de medidas.
+2. Altura e largura máxima e mínima (_min/max-width/height_): é possível definir um limite também para as propriedades de largura e altura.
+3. Margem (_margin_): é possível definir o espaçamento em volta dos elementos, para fora da borda do elemento.
+4. Espaçamento interno (_padding_): também é possível definir o espaçamento interno de um elemento.
+5. Tamanho da caixa (_box sizing_): Define o comportamento de medidas de um elemento, como `border-box` (para definir a largura e altura com base nas bordas do elemento) ou `content-box` (para definir a largura e altura com base no conteúdo do elemento).
+
+<br>
+
+## Estilização Básica com CSS
+
+<br>
+
+### **Imagens**
+
+1. Propriedade `object-fit`: Determina como uma imagem ou vídeo deve ser redimensionado para caber dentro de um elemento. Aceita os seguintes valores:
+   - `fill`: Valor padrão definido. Destrói a proporção original da imagem.
+   - `contain`: Mantêm a proporção original da imagem.
+   - `cover`: A imagem preenche o espaço do elemento sem perder qualidade.
+   - `none`: A imagem mantêm o seu tamanho original.
+   - `scale-down`: Escolhe entre os valores `contain` ou `none` terá uma configuração menor.
+2. Propriedade `object-position`: Define como uma imagem ou vídeo deve ser posicionado no sentido horizontal e vertical em relação ao seu container. Veja exemplo abaixo:
+
+```css
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 40px;
+}
+```
+
+<br>
+
+### **Fundo dos Elementos**
+
+Existem diversas propriedades relacionadas à edição do fundo de elementos:
+
+1. `background-image`: Define uma imagem como fundo de um elemento, recebe uma função `url()` para identificar o caminho da imagem.
+2. `background-size`: Define um tamanho para uma imagem de fundo, recebe os seguintes valores:
+   - `auto`: Valor padrão. Mantêm as proporções originais da imagem.
+   - `cover`: Preenche todo o elemento.
+   - `contain`: Insere o conteúdo de toda a imagem matendo suas proporções.
+   - para um tamanho específico (Ex: 300px; 100%).
+   - para os eixos X e Y do container (Ex: 200px 300px).
+   - Utilizando várias imagens em camadas, podendo modificar o comportamento de cada imagem isoladamente.
+3. `background-repeat`: Controla se a imagem deve se repetir ou não no elemento.
+4. `background-position`: Define a posição da imagem de fundo em relação aos eixos X e Y do container.
+5. `background-attachment`: Define como o fundo da imagem se comporta em relação ao _scroll_ do navegador.
+6. `background-origin`: Define o ponto de origem de uma imagem de fundo.
+7. `background-clip`: Possui o mesmo efeito de `background-origin` em cores de fundo e textos.
+8. `background-blend-mode`: Define opções de mesclagem entre o texto e o fundo de uma imagem.
+
+<br>
+
+### **Bordas**
+
+É possível manipular e definir propriedades relacionadas a borda de um determinado elemento. A partir da propriedade `border` podemos definir valores relacionadas a largura, estilo e cor da borda de um elemento.
+
+Existem outras propriedades relacionadas ao manipulamento da borda:
+
+1. `border-radius`: Define bordas arredondadas com base em valores fixos ou relativos. Também podemos definir valores para os 4 cantos do elemento.
+2. `border-image-source`: Define uma imagem de fundo para a borda. Recebe uma função `url()` ou um gradiente.
+3. `border-image-slice`: Divide a imagem em regiões para uma melhor manipulação dela para as bordas.
+4. `border-image-width`: Define a largura da imagem da borda.
+5. `border-image-repeat`: Controla se a imagem utilizada na borda deve se repetir ou não.
+6. `border-image-outset`: Controla a distância da imagem de borda definida para o conteúdo do elemento.
+
+<br>
+
+### **Fontes**
+
+É possível personalizar as fontes de sua página Web, existem diversas propriedades que facilitam este processo:
+
+1. `font-size`: Altere o tamanho da fonte, pode recebar valores relativos ou absolutos.
+2. `font-style`: Define o estilo da fonte (sublinhado, itálico, etc).
+3. `font-weight`: Define a espessura da fonte.
+4. `font-variant`: Define se a fonte deve ser exibida em formato _versalete_.
+5. `font-stretch`: Define o estreitamento do texto, só funciona em fontes que permitam essas configurações.
+6. `line-height`: Define a altura da linha do texto.
