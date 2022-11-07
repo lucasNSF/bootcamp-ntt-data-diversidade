@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Bootcamp NTT Data Diversidade Tech</h1>
-  <img height="120" src="https://hermes.digitalinnovation.one/tracks/cf84a1fb-27d1-48c0-847b-e4632ee16519.png" alt="NTT DATA Diversidade em Tech" class="sc-hshgAP elUpEI">
+  <img height="120" src="https://hermes.digitalinnovation.one/tracks/cf84a1fb-27d1-48c0-847b-e4632ee16519.png" alt="NTT DATA Diversidade em Tech">
 </div>
 
 <div align="center">
@@ -25,3 +25,4 @@
 - Módulo 2 - Páginas Web com HTML e CSS
   - [Desafio 01 - Crie uma página web utilizando as tags aprendidas](https://lucasnsf.github.io/bootcamp-ntt-data-diversidade/modulo_2/desafio-01.html)
   - [Desafio 02 - Criando seu primeiro site completo com HTML](https://lucasnsf.github.io/bootcamp-ntt-data-diversidade/modulo_2/desafio-02/desafio-02.html)
+  - [Desafio 03 - Criando sua primeira landing page com HTML e CSS](https://lucasnsf.github.io/bootcamp-ntt-data-diversidade/modulo_2/desafio-03/desafio-03.html)
