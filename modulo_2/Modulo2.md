@@ -46,6 +46,7 @@
   - [Fundo dos Elementos](#fundo-dos-elementos)
   - [Bordas](#bordas)
   - [Fontes](#fontes)
+- [Desafio de Projeto 03 - Criando sua primeira landing page com HTML e CSS](./desafio-03/desafio-03.html)
 
 <br>
 
