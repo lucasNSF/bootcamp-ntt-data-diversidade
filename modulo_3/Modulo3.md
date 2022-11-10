@@ -5,6 +5,7 @@
 - [Primeiros Passos com Javascript](#primeiros-passos-com-javascript)
   - [Variáveis e Operadores](#variáveis-e-operadores)
   - [Estruturas Condicionais e Operadores Lógicos](#estruturas-condicionais-e-operadores-lógicos)
+- [Conhecendo Funções Javascript](#conhecendo-funções)
 
 <br>
 
@@ -58,3 +59,25 @@ Estruturas condicionais validam um determinado trecho de código retornando valo
 [Veja o exemplo prático de estruturas condicionais e operadores lógicos](./condicionais-logicos.js)
 
 [Veja também um desafio prático!](./lista_exercicios/)
+
+<br>
+
+### **Conhecendo Funções**
+
+Funções são pequenos trechos de códigos independentes que podem compor o fluxo do programa principal. Desta forma tornando o código mais enxuto e reutilizável.
+
+Para criar funções podemos utilizar a palavra reservada `function` ou construindo como _arrow function_.
+
+```js
+// Function
+function somaDoisNumeros(a, b) {
+  return a + b;
+}
+
+// Arrow function
+const somaDoisNumeros = (a, b) => a + b;
+```
+
+[Veja o exemplo prático de funções!](./funcoes.js)
+
+<br>
