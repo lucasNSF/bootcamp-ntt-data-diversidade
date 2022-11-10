@@ -12,7 +12,7 @@
 ## Conteúdos deste repositório 🔎
 
 - [Módulo 2 - Páginas Web com HTML e CSS](modulo_2/Modulo2.md)
-- [Módulo 3 - Primeiras Páginas Interativas com Javascript]()
+- [Módulo 3 - Primeiras Páginas Interativas com Javascript](./modulo_3/Modulo3.md)
 - [Módulo 4 - Dominando Algoritmos Básicos com Desafios de Código Javascript]()
 - [Módulo 5 - Começando no Framework Angular]()
 - [Módulo 6 - Dominando Algoritmos Intermediários com Desafios de Código Javascript]()
