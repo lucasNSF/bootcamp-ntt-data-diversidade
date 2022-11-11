@@ -6,6 +6,7 @@
   - [Variáveis e Operadores](#variáveis-e-operadores)
   - [Estruturas Condicionais e Operadores Lógicos](#estruturas-condicionais-e-operadores-lógicos)
 - [Conhecendo Funções Javascript](#conhecendo-funções)
+- [Criando Objetos e Classes](#criando-objetos-e-classes)
 
 <br>
 
@@ -79,5 +80,13 @@ const somaDoisNumeros = (a, b) => a + b;
 ```
 
 [Veja o exemplo prático de funções!](./funcoes.js)
+
+<br>
+
+### **Criando Objetos e Classes**
+
+Classes são moldes para se armazenar um tipo de estrutura padronizada para o seu sistema. A partir de uma classe pode-se instanciar objetos, que é a representação física de sua classe.
+
+[Veja o exemplo prático de objetos e classes!](./classes-objetos.js)
 
 <br>
