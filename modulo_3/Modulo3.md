@@ -7,6 +7,7 @@
   - [Estruturas Condicionais e Operadores Lógicos](#estruturas-condicionais-e-operadores-lógicos)
 - [Conhecendo Funções Javascript](#conhecendo-funções)
 - [Criando Objetos e Classes](#criando-objetos-e-classes)
+- [Arrays e Estruturas de Repetição](#arrays-e-estruturas-de-repetição)
 
 <br>
 
@@ -90,3 +91,9 @@ Classes são moldes para se armazenar um tipo de estrutura padronizada para o se
 [Veja o exemplo prático de objetos e classes!](./classes-objetos.js)
 
 <br>
+
+### **Arrays e Estruturas de Repetição**
+
+Arrays são um tipo de dado abstrato em Javascript, armazenam coleções de dados e possuem vários métodos para sua manipulação. Já as estruturas de repetição são um conjunto de comandos que permitem executar uma quantidade determinada de instruções em laço.
+
+[Veja o exemplo prático de arrays e estruturas de repetição](./arrays-repeticao.js)
